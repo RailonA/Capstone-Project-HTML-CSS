@@ -474,6 +474,27 @@ footer .section-1 {
     color: #383838;
   }
 
+  .carousel-inner {
+    width: 95%;
+    height: 400px;
+  }
+
+  .carousel-inner h3 {
+    font-size: 12px;
+  }
+
+  .carousel-inner p {
+    font-size: 12px;
+  }
+
+
+
+
+
+  /* .item-container{
+  height: 400px;
+} */
+
   .search-button {
     background-color: white;
     color: #383838;
@@ -501,20 +522,16 @@ footer .section-1 {
     margin-left: -10px;
   }
 
-.carousel-item  {
-  display: flex;
-  justify-content: space-around;
-
-}
-
-
-  .carousel a {
-    background-color: #383838;
+  .carousel-item {
+    background-color: white;
   }
 
+  .carousel span {
+    background-color: #383838;
+  }
 }
 
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
   .button-container {
     font-size: 20px;
     padding: 10px;
@@ -591,7 +608,6 @@ footer .section-1 {
     height: 200px;
     background-color: #d35266;
     display: flex;
-    
     align-items: center;
   }
 
@@ -638,6 +654,4 @@ footer .section-1 {
     margin-top: 5px;
     margin-left: -10px;
   }
-
 }
-
