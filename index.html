@@ -43,43 +43,43 @@
         </div>
       </div>
     </nav>
-    <!-- RED BOTTOM SECTION OF HEADER -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <img class="header-logo" alt="logo"
-        src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
-            <div class="collapse navbar-collapse" >
-          <ul class="navbar-nav me-auto>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
- 
-            <li class=" dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
+    <!-- RED BOTTOM SECTION OF HEADER DESKTOP -->
+    <nav class="navbar navbar-expand-lg  bg-light d-none d-md-flex d-lg-flex d-xl-flex">
+        <!-- HEADER DESKTOP LOGO -->
+        <div class="bottom-header container-fluid justify-content-center flex-column">
+          <div class=" website-container d-flex
+          justify-content-center ">
+            <img class="header-bottom-logo mr-5 " alt="logo"
+            src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
+            <h3 class="d-flex justify-content-start"> WEB PAGE TITLE</h3>
+          </div>
+          <!-- HEADER DESKTOP DROP DOWN -->
+          <div class=" d-flex drop-down-container">
+                <ul class="navbar-nav">
+                  <li class=" dropdown-button">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item callapse show" href="#">Brush</a></li>
+                      <li><a class="dropdown-item callapse show" href="#">Paint</a></li>
+                      <li><a class="dropdown-item callapse show" href="#">Canvas</a></li>
+                    </ul>
+                  </li> 
+                </ul>
+                <!-- HEADER DESKTOP SEARCH BAR -->
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success search-button" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
     </nav>
-    </div>
   </header>
-
+<!-- MAIN BODY  -->
   <main class="container">
+    <!-- MOBILE CONTAINER -->
+    <section class="d-md-none"> 
     <!-- MOBILE: BRUSH -->
        <section>
          <div class="d-flex subjext-tittle">
@@ -396,6 +396,8 @@
      </div>
    </div>
   </section>
+</section>
+<!-- 768PX AND UP CONTAINER -->
   </main>
   <!-- FOOTER -->
   <footer>

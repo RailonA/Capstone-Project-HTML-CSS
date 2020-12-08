@@ -222,17 +222,14 @@ footer .section-1 {
   .top-header > button > i {
     margin-top: -10px;
   }
-.bottom-header {
-  height: 200px;
-  background-color: #d35266;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.header-bottom-logo {
-  height: 80px;
-}
+  .bottom-header {
+    height: 200px;
+    background-color: #d35266;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .price-point {
     color: #d35266;
@@ -382,12 +379,29 @@ footer .section-1 {
 
 @media (min-width: 768px) {
   .button-container {
-    display: flex;
-    justify-content: space-around;
     font-size: 20px;
-    align-items: center;
     padding: 10px;
-    width: 800px;
+    width: 100%;
+  }
+
+  .website-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .website-container h3 {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-right: 50px;
+  }
+
+  .drop-down-container {
+    margin-bottom: 30px;
+    margin-left: 40px;
   }
 
   header .fas {
@@ -420,12 +434,10 @@ footer .section-1 {
   }
 
   .header-post-button p {
-    margin-left: 20px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
   }
-
 
   .header-post {
     background-color: #d35266;
@@ -436,6 +448,37 @@ footer .section-1 {
     align-items: center;
     padding: 40px;
     font-size: 10px;
+  }
+
+  .bottom-header {
+    height: 200px;
+    background-color: #d35266;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-bottom-logo {
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .dropdown-button {
+    background-color: white;
+    margin: 0 10px;
+    padding: 3px 10px;
+  }
+
+  .dropdown-button a {
+    color: #383838;
+  }
+
+  .search-button {
+    background-color: white;
+    color: #383838;
+    margin-left: 10px;
+    border: transparent;
   }
 
   .price-point {
@@ -458,3 +501,131 @@ footer .section-1 {
     margin-left: -10px;
   }
 }
+
+@media (min-width: 1024px) { 
+  .button-container {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .website-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .website-container h3 {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-right: 50px;
+  }
+
+  .drop-down-container {
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+
+  header .fas {
+    margin: 0 10px;
+  }
+
+  .header-logo {
+    height: 60px;
+  }
+
+  .top-header {
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .top-header button {
+    background-color: transparent;
+    color: #888;
+    border: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-header button > p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .header-post-button p {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-post {
+    background-color: #d35266;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-size: 10px;
+  }
+
+  .bottom-header {
+    height: 200px;
+    background-color: #d35266;
+    display: flex;
+    
+    align-items: center;
+  }
+
+  .header-bottom-logo {
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .dropdown-button {
+    background-color: white;
+    margin: 0 10px;
+    padding: 3px 10px;
+  }
+
+  .dropdown-button a {
+    color: #383838;
+  }
+
+  .search-button {
+    background-color: white;
+    color: #383838;
+    margin-left: 10px;
+    border: transparent;
+  }
+
+  .price-point {
+    color: #d35266;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  div .price-point {
+    margin: 0;
+    padding: 0;
+  }
+
+  .price-box :nth-child(1) {
+    color: rgb(173, 173, 173);
+    border: solid 2px  rgb(173, 173, 173);
+    padding: 5px 5px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+
+}
+
