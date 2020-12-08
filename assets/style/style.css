@@ -222,6 +222,17 @@ footer .section-1 {
   .top-header > button > i {
     margin-top: -10px;
   }
+.bottom-header {
+  height: 200px;
+  background-color: #d35266;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bottom-logo {
+  height: 80px;
+}
 
   .price-point {
     color: #d35266;
