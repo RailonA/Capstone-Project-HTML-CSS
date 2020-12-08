@@ -500,6 +500,18 @@ footer .section-1 {
     margin-top: 5px;
     margin-left: -10px;
   }
+
+.carousel-item  {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+  .carousel a {
+    background-color: #383838;
+  }
+
 }
 
 @media (min-width: 1024px) { 
