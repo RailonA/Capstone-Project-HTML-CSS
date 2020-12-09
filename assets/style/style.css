@@ -69,15 +69,29 @@ div {
   color: #888;
 }
 
+.subjext-tittle :nth-child(2) {
+  margin: 10px 10px 0 -10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #888;
+}
+
 .item-container {
   margin: 5px 5px 10px 5px;
-  padding: 10px;
   border: solid 2px  rgb(173, 173, 173);
   background-color: white;
 }
 
+.item-container a {
+  color: #383838;
+}
+
 .button-hide {
   display: none;
+}
+
+.price-box:hover {
+  text-decoration: none;
 }
 
 .price-box :nth-child(1):hover + .button-hide {
@@ -128,10 +142,31 @@ div {
   font-weight: bold;
 }
 
+.item-container {
+  padding: 5px;
+}
+
 .price-point {
   color: #d35266;
   font-weight: bold;
   font-size: 20px;
+}
+
+.search-info button {
+  background-color: #d35266;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+  border: transparent;
+  margin: 3px;
+}
+
+.search-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
 }
 
 footer {
@@ -172,6 +207,25 @@ footer .section-1 {
 .section-3 {
   color: #888;
   margin: 0 20px 0 20px;
+}
+
+.form-check p {
+  font-weight: bold;
+  color: #383838;
+  margin-top: 30px;
+}
+
+.boarder {
+  border-bottom: solid 1px #888;
+  margin: 20px 0;
+}
+
+.form-check {
+  margin-top: 5px;
+}
+
+.form-check label {
+  margin-top: 5px;
 }
 
 @media (min-width: 320px) {
@@ -473,53 +527,95 @@ footer .section-1 {
   .dropdown-button a {
     color: #383838;
   }
-.hotspot-section{
-  border: transparent;
-}
-.hot-add-p {
-  color: #888;
-  font-weight: bold;
-  margin-left: 80px;
-  margin-top: 40px;
-  
-}
 
-  .hotadd-image img{
-    height: 200px;
-    width: 300px
+  .hotspot-section {
+    border: transparent;
   }
+
+  .hot-add-p {
+    color: #888;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .hotadd-image img {
+    height: 200px;
+    width: 300px;
+  }
+
   .hotadd-info {
     display: flex;
     justify-content: space-between;
-   margin-left: 20px;
-   padding: 10px 0;
+    margin-left: 20px;
+    padding: 10px 0;
   }
-.hotadd-info button{
-  background-color: #d35266;
-  color: white;
-  font-weight: bold;
-  border: solid 1px #;
-  font-size: 12px;
-  padding: 5px;
-  border-radius: 3px;
-}
-  .hotadd-info h3{
-    color:  #d35266;
+
+  .hotadd-info button {
+    background-color: #d35266;
+    color: white;
     font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
   }
+
+  .hotadd-info > :nth-child(1) {
+    color: #d35266;
+    font-size: 20px;
+  }
+
+  .left-side-bar {
+    border-right: solid 1px #888;
+    padding: 0 20px;
+  }
+
+  .search-section {
+    border: transparent;
+  }
+
+  .search-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+
+  .search-info h3 {
+    color: #888;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .search-info button {
+    background-color: #d35266;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .search-image img {
+    height: 200px;
+    width: 300px;
+  }
+
   .carousel-inner h3 {
     font-size: 12px;
+    font-weight: bold;
   }
 
   .carousel-inner p {
     font-size: 12px;
   }
 
+  /*
   .controls-top a {
     width: 50px;
     background-color: #383838;
     color: black;
-  }
+  } */
 
   .carousel-control-prev-icon {
     color: #383838;
@@ -530,6 +626,10 @@ footer .section-1 {
     color: #383838;
     margin-left: 10px;
     border: transparent;
+  }
+
+  .search-button:hover {
+    background-color: #383838;
   }
 
   .price-point {
@@ -552,14 +652,42 @@ footer .section-1 {
     margin-left: -10px;
   }
 
-  .carousel-item {
-    background-color: rgb(241, 241, 241);
-    padding: 0 60px;
+  .hotads-section {
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .carousel span {
+  .item-container-row {
+    padding: 10px;
     background-color: white;
   }
+
+  .carousel-item {
+    background-color: rgb(241, 241, 241);
+    padding: 0 30px;
+  }
+
+  .carousel a {
+    background-color: transparent;
+    width: 10px;
+  }
+
+  .carousel-item a {
+    width: 100%;
+    color: #383838;
+  }
+
+
+  /*
+  .carousel-control-prev, {
+padding-right: 100px;
+}
+
+  .carousel-control-next {
+    padding: 0;
+  } */
 
   .fa-chevron-left,
   .fa-chevron-right {
