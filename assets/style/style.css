@@ -473,7 +473,40 @@ footer .section-1 {
   .dropdown-button a {
     color: #383838;
   }
+.hotspot-section{
+  border: transparent;
+}
+.hot-add-p {
+  color: #888;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: 40px;
+  
+}
 
+  .hotadd-image img{
+    height: 200px;
+    width: 300px
+  }
+  .hotadd-info {
+    display: flex;
+    justify-content: space-between;
+   margin-left: 20px;
+   padding: 10px 0;
+  }
+.hotadd-info button{
+  background-color: #d35266;
+  color: white;
+  font-weight: bold;
+  border: solid 1px #;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+}
+  .hotadd-info h3{
+    color:  #d35266;
+    font-weight: bold;
+  }
   .carousel-inner h3 {
     font-size: 12px;
   }
