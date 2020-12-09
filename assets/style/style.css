@@ -474,11 +474,6 @@ footer .section-1 {
     color: #383838;
   }
 
-  .carousel-inner {
-    width: 95%;
-    height: 400px;
-  }
-
   .carousel-inner h3 {
     font-size: 12px;
   }
@@ -487,13 +482,15 @@ footer .section-1 {
     font-size: 12px;
   }
 
+  .controls-top a {
+    width: 50px;
+    background-color: #383838;
+    color: black;
+  }
 
-
-
-
-  /* .item-container{
-  height: 400px;
-} */
+  .carousel-control-prev-icon {
+    color: #383838;
+  }
 
   .search-button {
     background-color: white;
@@ -523,11 +520,18 @@ footer .section-1 {
   }
 
   .carousel-item {
-    background-color: white;
+    background-color: rgb(241, 241, 241);
+    padding: 0 60px;
   }
 
   .carousel span {
-    background-color: #383838;
+    background-color: white;
+  }
+
+  .fa-chevron-left,
+  .fa-chevron-right {
+    color: black;
+    font-weight: bold;
   }
 }
 
