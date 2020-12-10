@@ -75,7 +75,12 @@ or
 - Twiter: [@railonAcosta](https://twitter.com/RailonAcosta)
 
 
+## ORIGINAL DESIGN INFORMATION
+You can access all the design info (layouts) in this link:
 
+[https://www.behance.net/gallery/24796463/ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
+
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 ## 🤝 Contributing
 
