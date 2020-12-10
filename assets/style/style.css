@@ -267,6 +267,14 @@ footer .section-1 {
   margin-top: 5px;
 }
 
+.fa-chevron-left,
+.fa-chevron-right {
+  color: black;
+  font-weight: bold;
+  height: 50px;
+}
+
+
 @media (min-width: 320px) {
   header {
     padding: 0;
@@ -476,6 +484,11 @@ footer .section-1 {
     padding: 10px;
     width: 100%;
   }
+  .dropdown-menu a:hover {
+background-color: #383838;
+color: #d35266;
+font-weight: bold;
+  }
 
   .website-container {
     width: 100%;
@@ -649,13 +662,6 @@ footer .section-1 {
     font-size: 12px;
   }
 
-  /*
-  .controls-top a {
-    width: 50px;
-    background-color: #383838;
-    color: black;
-  } */
-
   .carousel-control-prev-icon {
     color: #383838;
   }
@@ -718,21 +724,12 @@ footer .section-1 {
     color: #383838;
   }
 
-
-  /*
-  .carousel-control-prev, {
-padding-right: 100px;
-}
-
-  .carousel-control-next {
-    padding: 0;
-  } */
-
   .fa-chevron-left,
   .fa-chevron-right {
     color: black;
     font-weight: bold;
   }
+
 }
 
 @media (min-width: 1024px) {
