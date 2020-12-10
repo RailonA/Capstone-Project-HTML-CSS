@@ -163,6 +163,44 @@ div {
   margin: 3px;
 }
 
+.hotspot-section {
+  border: transparent;
+}
+
+.hot-add-p {
+  color: #888;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.hotadd-image img {
+  height: 200px;
+  width: 300px;
+}
+
+.hotadd-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.hotadd-info button {
+  background-color: #d35266;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.hotadd-info > :nth-child(1) {
+  color: #d35266;
+  font-size: 20px;
+}
+
 .search-info {
   display: flex;
   justify-content: space-between;
