@@ -39,6 +39,14 @@ div {
   margin-top: 30px;
 }
 
+footer a {
+  color: #383838;
+}
+
+.item-container a {
+  color: #383838;
+}
+
 .top-header {
   background-color: #383838;
   display: flex;
@@ -53,7 +61,7 @@ div {
   margin-right: 10px;
 }
 
-.top-header  > p {
+.top-header > p {
   margin: 0;
   padding-left: 8px;
 }
@@ -78,8 +86,9 @@ div {
   border-radius: 3px;
 }
 
-.top-header a {
-  color: #888;
+.button-hide a {
+  margin: 0;
+  padding: 0;
 }
 
 .top-header button:hover,
@@ -113,14 +122,6 @@ div {
   background-color: white;
 }
 
-footer a {
-  color: #383838;
-}
-
-.item-container a {
-  color: #383838;
-}
-
 .button-hide {
   display: none;
 }
@@ -143,11 +144,6 @@ footer a {
   height: 80px;
   margin-top: -200px;
   margin-left: -150px;
-  padding: 0;
-}
-
-.button-hide a {
-  margin: 0;
   padding: 0;
 }
 
