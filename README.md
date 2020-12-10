@@ -12,8 +12,10 @@
 
 > The Desktop / Tablet version :
  
-![screenshot](./assets/img/main1.png)
 ![screenshot](./assets/img/main2.png )
+![screenshot](./assets/img/main1.png)
+
+
 
 > The Mobil version :
 
