@@ -6,20 +6,20 @@
 
 > This project is the HTML and CSS capstone project, I built a art store  directory that allows users to scrole through items for sale, this project has 2 pages which are :
 
-- The search page: the main page where users can enter keywords to find houses that match their criteria
-- The search results page: This page displays the result of the entered keywords
+- The main page: the main page where all the items are displayed
+- The search results page: This page displays the items in more of a narrow way regarding price point and items the customer is looking for. 
 
 
-> The Desktop version :
+> The Desktop / Tablet version :
  
-![screenshot]( ... )
+![screenshot](./assets/img/main1.png)
+![screenshot](./assets/img/main2.png )
 
-> The Tablet version :
-
-![screenshot]( ... )
 > The Mobil version :
 
-![screenshot]( ... )
+![screenshot]( ./assets/img/mobile1.png )
+![screenshot]( ./assets/img/mobile2.png )
+
 ## Built With
 
 - HTML5
