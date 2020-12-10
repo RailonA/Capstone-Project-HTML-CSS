@@ -46,14 +46,14 @@ div {
   justify-content: center;
 }
 
-.top-header button {
+.top-header a {
   background-color: transparent;
   color: #888;
   border: transparent;
   margin-right: 10px;
 }
 
-.top-header > button > p {
+.top-header  > p {
   margin: 0;
   padding-left: 8px;
 }
@@ -78,7 +78,12 @@ div {
   border-radius: 3px;
 }
 
-.top-header button:hover {
+.top-header a {
+  color: #888;
+}
+
+.top-header button:hover,
+.top-header a:hover {
   color: #d35266;
 }
 
@@ -317,7 +322,7 @@ footer .section-1 {
     font-weight: bold;
   }
 
-  .top-header > button > i {
+  .top-header > a > i {
     margin-top: -10px;
   }
 
@@ -387,7 +392,7 @@ footer .section-1 {
     font-weight: bold;
   }
 
-  .top-header > button > i {
+  .top-header > a > i {
     margin-top: -10px;
   }
 
