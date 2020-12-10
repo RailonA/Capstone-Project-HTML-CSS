@@ -108,6 +108,10 @@ div {
   background-color: white;
 }
 
+footer a {
+  color: #383838;
+}
+
 .item-container a {
   color: #383838;
 }
@@ -142,6 +146,7 @@ div {
   margin: 0;
   padding: 0;
 }
+
 
 .button-hide > a:hover {
   background-color: #383838;
@@ -244,6 +249,7 @@ footer .section-1 {
   color: #d35266;
   font-weight: bold;
 }
+
 
 .section-3 {
   color: #888;

@@ -2,9 +2,12 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# WebPage-Template
+# Sale Page  directory - HTML AND CSS Capstone Project
 
-( PROJECT EXPLAINATION )
+> This project is the HTML and CSS capstone project, I built a art store  directory that allows users to scrole through items for sale, this project has 2 pages which are :
+
+- The search page: the main page where users can enter keywords to find houses that match their criteria
+- The search results page: This page displays the result of the entered keywords
 
 
 > The Desktop version :
@@ -25,7 +28,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( ... )
+[Live Demo Link]( https://railona.github.io/Capstone-Project-HTML-CSS/ )
 
 
 
@@ -54,7 +57,7 @@ or
 
 1- Clone the repository
 ```
- $ git clone ...
+ $ git clone git@github.com:RailonA/Capstone-Project-HTML-CSS.git
 ```
 
 2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
@@ -76,7 +79,7 @@ or
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]( ... ).
+Feel free to check the [issues page]( https://github.com/RailonA/Capstone-Project-HTML-CSS/issues/1 ).
 
 ## Show your support
 
