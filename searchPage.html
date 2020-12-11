@@ -14,69 +14,103 @@
   <title>Hello, world!</title>
 </head>
 <body class="container-fluid">
-  <header > 
-    <!-- BLACK TOP SECTION OF HEADER -->
-    <div class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid top-header d-flex ">
-        <a class="navbar-brand d-flex d-md-none" href="index.html">
+    <!-- MOBILE BLACK NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex d-md-none d-lg-none d-xl-none">
+      <a class="col navbar-brand d-flex" href="index.html">
+        <img class="header-logo" alt="logo"
+          src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
+      </a>        
+      <div class="col-2">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div> 
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav navbar-collapse-menu">
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Collections</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">PURCHASE LIST</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu  bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item navbar-dark bg-dark ml-10 text-light text-capitalize" href="#">brush</a>
+              <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize"   href="#">paint</a>
+              <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize" href="#">canvas</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- DESKTOP BLACK NAV -->
+    <nav class="navbar navbar-dark bg-dark d-none d-md-flex">
+        <a class="col navbar-brand" href="index.html">
           <img class="header-logo" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
         </a>
-      </div>
-        <div class="button-container d-flex">
-          <div class="button-container d-flex">
-            <a  href="index.html"  class="d-flex  text-uppercase nav-link" >
-              <i class="fas fa-home"></i>
-              <p>HOME</p>
+          <div class="button-container top-header d-flex col-9">
+            <a  href="index.html"  class="text-uppercase text-center nav-link d-flex">
+              <i class="fas fa-home col"></i>
+              <p class="col">HOME</p>
             </a>
-          <a class="d-flex  text-uppercase nav-link">
-            <i class="fas fa-th-large"></i>
-            <p>COLLECTIONS</p>
-          </a>
-          <a class="d-flex text-uppercase purchase-button nav-link">
-            <i class="fas fa-shopping-cart"></i>
-            <p>PURCHASE LIST</p>
-          </a>
-          <a class="header-post-button text-uppercase d-none d-md-flex ">
-            <p class="header-post">Post an add</p>
-          </a>
-        </div>
-      </div>
-    </div>
+            <a href="#"  class="text-uppercase text-center nav-link d-flex">
+              <i class="fas fa-th-large col"></i>
+              <p class="col">COLLECTIONS</p>
+            </a>
+            <a href="#"  class="text-uppercase text-center nav-link justify-content-center d-flex">
+              <i class="fas fa-shopping-cart col"></i>
+              <p class="">PURCHASE LIST</p>
+            </a>
+            <a  href="#" class="text-uppercase text-center d-none d-md-flex nav-link">
+              <p class="header-post">Post an add</p>
+            </a>
+          </div>
+      </nav>    
+      
     <!-- RED BOTTOM SECTION OF HEADER DESKTOP -->
     <nav class="navbar navbar-expand-lg  bg-light d-none d-md-flex d-lg-flex d-xl-flex">
-      <!-- HEADER DESKTOP LOGO -->
-      <div class="bottom-header container-fluid justify-content-center flex-column">
-        <div class=" website-container d-flex
-        justify-content-center ">
-          <img class="header-bottom-logo mr-5 " alt="logo"
-          src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
-          <h3 class="d-flex justify-content-start"> WEB PAGE TITLE</h3>
-        </div>
-        <!-- HEADER DESKTOP DROP DOWN -->
-        <div class="d-flex" >
-          <div class="  drop-down-container d-flex">
-            <ul class="navbar-nav">
-              <li class=" dropdown-button nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" >
-                    <li><a class="dropdown-item " >Paint</a></li>
-                    <li><a class="dropdown-item " >Canvas</a></li>
-                    <li><a class="dropdown-item " >Brush</a></li>    
-                </ul>
-              </li>
-              </ul>
-              </div>
-                <!-- HEADER DESKTOP SEARCH BAR -->
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success search-button" type="submit">Search</button>
-                </form>
-              </div>
-            </div>  
-  </nav>
+        <div class="bottom-header container-fluid justify-content-center flex-column">
+        <!-- HEADER DESKTOP LOGO -->
+          <div class=" website-container d-flex
+          justify-content-center ">
+            <img class="header-bottom-logo mb-4 mr-3" alt="logo"
+            src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
+            <h1 class="d-flex justify-content-center"> WEB PAGE TITLE</h1>
+          </div>
+          <!-- HEADER DESKTOP DROP DOWN -->
+          <div class="d-flex" >
+            <div class="  drop-down-container d-flex">
+              <ul class="navbar-nav">
+                <li class=" dropdown-button nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu"  >
+                    <li><a class="dropdown-item " href="#">Brush</a></li>    
+                    <li><a class="dropdown-item " href="#">Paint</a></li>
+                    <li><a class="dropdown-item " href="#">Canvas</a></li>
+                  </ul>
+                    </li> 
+                  </ul>
+                </div>
+                <div>
+                  <!-- HEADER DESKTOP SEARCH BAR -->
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button     onclick="window.location.href = 'searchPage.html';" class="btn btn-outline-success search-button" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>  
+            </div>
+    </nav>
   </header>
 <!-- MAIN BODY  -->
   <main class="container">

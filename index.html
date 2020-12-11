@@ -17,18 +17,21 @@
 
 <body class="container-fluid">
   <header > 
-    <!-- BLACK TOP SECTION OF HEADER -->
+    <!-- MOBILE BLACK NAV -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex d-md-none d-lg-none d-xl-none">
       <a class="col navbar-brand d-flex" href="index.html">
         <img class="header-logo" alt="logo"
           src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
-      </a>        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      </a>        
+      <div class="col-2">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div> 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav navbar-collapse-menu">
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-uppercase" href="#">Collections</a>
@@ -40,17 +43,17 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
-            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-capitaliza navbar-dark bg-dark" href="#">brush</a>
-              <a class="dropdown-item text-capitaliza dropdown-header" href="#">paint</a>
-              <a class="dropdown-item text-capitaliza dropdown-header" href="#">canvas</a>
+            <div class="dropdown-menu  bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item navbar-dark bg-dark ml-10 text-light text-capitalize" href="#brush-section">brush</a>
+              <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize"   href="#paint-section">paint</a>
+              <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize" href="#canvas-section">canvas</a>
             </div>
           </li>
         </ul>
       </div>
     </nav>
     
-    
+    <!-- DESKTOP BLACK NAV -->
     <nav class="navbar navbar-dark bg-dark d-none d-md-flex">
         <a class="col navbar-brand" href="index.html">
           <img class="header-logo" alt="logo"
@@ -69,21 +72,19 @@
               <i class="fas fa-shopping-cart col"></i>
               <p class="">PURCHASE LIST</p>
             </a>
-            <a class="text-uppercase text-center d-none d-md-flex nav-link">
+            <a  href="#" class="text-uppercase text-center d-none d-md-flex nav-link">
               <p class="header-post">Post an add</p>
             </a>
           </div>
       </nav>    
       
-  
-
     <!-- RED BOTTOM SECTION OF HEADER DESKTOP -->
     <nav class="navbar navbar-expand-lg  bg-light d-none d-md-flex d-lg-flex d-xl-flex">
-        <!-- HEADER DESKTOP LOGO -->
         <div class="bottom-header container-fluid justify-content-center flex-column">
+        <!-- HEADER DESKTOP LOGO -->
           <div class=" website-container d-flex
           justify-content-center ">
-            <img class="header-bottom-logo mr-5 " alt="logo"
+            <img class="header-bottom-logo mb-4 mr-3" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
             <h1 class="d-flex justify-content-center"> WEB PAGE TITLE</h1>
           </div>
@@ -98,7 +99,7 @@
                   <ul class="dropdown-menu"  >
                     <li><a class="dropdown-item " href="#brush-section">Brush</a></li>    
                     <li><a class="dropdown-item " href="#paint-section">Paint</a></li>
-                      <li><a class="dropdown-item " href="#canvas-section">Canvas</a></li>
+                    <li><a class="dropdown-item " href="#canvas-section">Canvas</a></li>
                   </ul>
                     </li> 
                   </ul>
@@ -107,7 +108,7 @@
                   <!-- HEADER DESKTOP SEARCH BAR -->
                   <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button href="searchPage.html" class="btn btn-outline-success search-button" type="submit">Search</button>
+                    <button     onclick="window.location.href = 'searchPage.html';" class="btn btn-outline-success search-button" type="submit">Search</button>
                   </form>
                 </div>
               </div>  
