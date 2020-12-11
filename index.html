@@ -18,31 +18,65 @@
 <body class="container-fluid">
   <header > 
     <!-- BLACK TOP SECTION OF HEADER -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid top-header d-flex flex-md-row">
-        <a class="navbar-brand d-flex" href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex d-md-none d-lg-none d-xl-none">
+      <a class="col navbar-brand d-flex" href="index.html">
+        <img class="header-logo" alt="logo"
+          src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
+      </a>        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">Collections</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">PURCHASE LIST</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item text-capitaliza navbar-dark bg-dark" href="#">brush</a>
+              <a class="dropdown-item text-capitaliza dropdown-header" href="#">paint</a>
+              <a class="dropdown-item text-capitaliza dropdown-header" href="#">canvas</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    <nav class="navbar navbar-dark bg-dark d-none d-md-flex">
+        <a class="col navbar-brand" href="index.html">
           <img class="header-logo" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
         </a>
-        <div class="button-container d-flex col-9">
-          <a  href="index.html"  class="d-flex  text-uppercase nav-link" >
-            <i class="fas fa-home"></i>
-            <p>HOME</p>
-          </a>
-          <a class="d-flex  text-uppercase nav-link">
-            <i class="fas fa-th-large"></i>
-            <p>COLLECTIONS</p>
-          </a>
-          <a class="d-flex text-uppercase purchase-button nav-link">
-            <i class="fas fa-shopping-cart"></i>
-            <p>PURCHASE LIST</p>
-          </a>
-          <a class="header-post-button text-uppercase d-none d-md-flex ">
-            <p class="header-post">Post an add</p>
-          </a>
-        </div>
-      </div>
-    </nav>
+          <div class="button-container top-header d-flex col-9">
+            <a  href="index.html"  class="text-uppercase text-center nav-link d-flex">
+              <i class="fas fa-home col"></i>
+              <p class="col">HOME</p>
+            </a>
+            <a href="#"  class="text-uppercase text-center nav-link d-flex">
+              <i class="fas fa-th-large col"></i>
+              <p class="col">COLLECTIONS</p>
+            </a>
+            <a href="#"  class="text-uppercase text-center nav-link justify-content-center d-flex">
+              <i class="fas fa-shopping-cart col"></i>
+              <p class="">PURCHASE LIST</p>
+            </a>
+            <a class="text-uppercase text-center d-none d-md-flex nav-link">
+              <p class="header-post">Post an add</p>
+            </a>
+          </div>
+      </nav>    
+      
+  
+
     <!-- RED BOTTOM SECTION OF HEADER DESKTOP -->
     <nav class="navbar navbar-expand-lg  bg-light d-none d-md-flex d-lg-flex d-xl-flex">
         <!-- HEADER DESKTOP LOGO -->
@@ -51,7 +85,7 @@
           justify-content-center ">
             <img class="header-bottom-logo mr-5 " alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
-            <h3 class="d-flex justify-content-start"> WEB PAGE TITLE</h3>
+            <h1 class="d-flex justify-content-center"> WEB PAGE TITLE</h1>
           </div>
           <!-- HEADER DESKTOP DROP DOWN -->
           <div class="d-flex" >
@@ -73,7 +107,7 @@
                   <!-- HEADER DESKTOP SEARCH BAR -->
                   <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success search-button" type="submit">Search</button>
+                    <button href="searchPage.html" class="btn btn-outline-success search-button" type="submit">Search</button>
                   </form>
                 </div>
               </div>  
@@ -95,7 +129,7 @@
               <div class=" hotadd-image hotadd-image d-flex justify-content-center">
                 <img alt="#" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg">
               </div>
-              <div class="flex-column hotadd-info d-flex justify-content-center">
+              <div class="flex-column hotadd-info justify-content-between d-flex justify-content-center">
                 <h3 class="text-uppercase  text-center">Add title goes hear</h3>
                 <p class="text-center">You can fill up this setion with as much information as possible</p>
                 <div class="d-flex justify-content-center" >
@@ -113,7 +147,7 @@
                   <div class=" hotadd-image hotadd-image d-flex justify-content-center">
                   <img alt="#" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg">
                 </div>
-                <div class="flex-column hotadd-info d-flex justify-content-center">
+                <div class="flex-column hotadd-info justify-content-between d-flex justify-content-center">
                   <h3 class="text-uppercase text-center">Add title goes hear</h3>
                   <p class=" text-center">You can fill up this setion with as much information as possible</p>
                   <div class="d-flex justify-content-center">
@@ -131,7 +165,7 @@
                     <div class=" hotadd-image hotadd-image d-flex justify-content-center">
                       <img alt="#" src="https://www.saltstrong.com/wp-content/uploads/Pieter_Lastman_-_Jonah_and_the_Whale_-_Google_Art_Project.jpg">
                     </div>
-                    <div class="flex-column hotadd-info ">
+                    <div class="flex-column hotadd-info justify-content-between ">
                       <h3 class="text-uppercase text-center">Add title goes hear</h3>
                       <p class=" text-center">You can fill up this setion with as much information as possible</p>
                       <div class="d-flex justify-content-center">
@@ -159,7 +193,7 @@
     <section class="d-md-none"> 
     <!-- MOBILE: BRUSH -->
        <section>
-         <div class="d-flex subjext-tittle">
+         <div class="d-flex subject-tittle">
            <i class="fas fa-paint-brush"></i>
            <h2 class="row" >Brush</h2>
           </div> 
@@ -171,7 +205,7 @@
              </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
 
                 <p class="price-point">$00.00</p>
@@ -184,7 +218,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
 
                 <p class="price-point">$00.00</p>
@@ -199,7 +233,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -211,7 +245,7 @@
               </a>
                <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -225,7 +259,7 @@
               </a>
                <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -237,7 +271,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -246,7 +280,7 @@
    </section>
   <!-- MOBILE: PAINT -->
     <section>
-      <div class="d-flex subjext-tittle">
+      <div class="d-flex subject-tittle">
         <i class="fas fa-palette"></i>
         <h2 class="row">PAINT</h2>
         </div> 
@@ -258,7 +292,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -270,7 +304,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$00.00</p>
               </div>
@@ -284,7 +318,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
                
               <p class="price-point">$00.00</p>
@@ -297,7 +331,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               
               <p class="price-point">$00.00</p>
@@ -312,7 +346,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <div class="button-hide flex-column ">
               
@@ -329,7 +363,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <div class="button-hide flex-column ">
               
@@ -343,7 +377,7 @@
     </section>
   <!-- MOBILE: CANVAS -->
   <section  >
-    <div class="d-flex subjext-tittle">
+    <div class="d-flex subject-tittle">
       <i class="fas fa-square"></i>
       <h2 class="row">Canvas</h2>
       </div> 
@@ -355,7 +389,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$00.00</p>
             </div>
@@ -367,7 +401,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>             
               <p class="price-point">$00.00</p>
             </div>
@@ -381,7 +415,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$00.00</p>
           </div>
@@ -393,7 +427,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$00.00</p>
           </div>
@@ -407,7 +441,7 @@
         </a>
         <p class="condition">New</p>
         <p>From: New York , US</p>
-        <div class="price-box">
+        <div class="price-box flex-section-between" >
           <i class="fas fa-plus"></i>
           <p class="price-point">$00.00</p>
         </div>
@@ -430,7 +464,7 @@
 
   <!-- CAROUSEL SECTION -->
   <!-- BRUSH :: CAROUSEL BODY CONTENT -->
-  <div class="d-flex subjext-tittle">
+  <div class="d-flex subject-tittle">
     <i class="fas fa-paint-brush"></i>
     <h2 class="row" id="brush-section">Brush</h2>
    </div> 
@@ -449,7 +483,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -461,7 +495,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -473,7 +507,7 @@
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -490,7 +524,7 @@
                 </a>
                 <p class="condition">New</p>
                 <p>From: New York , US</p>
-                <div class="price-box">
+                <div class="price-box flex-section-between" >
                   <i class="fas fa-plus"></i>
                   <p class="price-point">$20.00</p>
                 </div>
@@ -502,7 +536,7 @@
                 </a>
                 <p class="condition">New</p>
                 <p>From: New York , US</p>
-                <div class="price-box">
+                <div class="price-box flex-section-between" >
                   <i class="fas fa-plus"></i>
                   <p class="price-point">$20.00</p>
                 </div>
@@ -514,7 +548,7 @@
                 </a>
                 <p class="condition">New</p>
                 <p>From: New York , US</p>
-                <div class="price-box">
+                <div class="price-box flex-section-between" >
                   <i class="fas fa-plus"></i>
                   <p class="price-point">$20.00</p>
                 </div>
@@ -532,7 +566,7 @@
                 </a>
                  <p class="condition">New</p>
                  <p>From: New York , US</p>
-                 <div class="price-box">
+                 <div class="price-box flex-section-between" >
                    <i class="fas fa-plus"></i>
                    <p class="price-point">$30.00</p>
                  </div>
@@ -544,7 +578,7 @@
                 </a>
                  <p class="condition">New</p>
                  <p>From: New York , US</p>
-                 <div class="price-box">
+                 <div class="price-box flex-section-between" >
                    <i class="fas fa-plus"></i>
                    <p class="price-point">$30.00</p>
                  </div>
@@ -556,7 +590,7 @@
                 </a>
                  <p class="condition">New</p>
                  <p>From: New York , US</p>
-                 <div class="price-box">
+                 <div class="price-box flex-section-between" >
                    <i class="fas fa-plus"></i>
                    <p class="price-point">$30.00</p>
                  </div>
@@ -576,7 +610,7 @@
       </div>
      </div>
   <!-- PAINT :: CAROUSEL BODY CONTENT -->
-  <div class="d-flex subjext-tittle">
+  <div class="d-flex subject-tittle">
     <i class="fas fa-palette"></i>
     <h2 class="row"  id="paint-section">PAINT</h2>
     </div>  
@@ -594,7 +628,7 @@
             <h3>Studio Oil Paints and Sets</h3>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -606,7 +640,7 @@
             <h3>Studio Oil Paints and Sets</h3>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -618,7 +652,7 @@
             <h3>Studio Oil Paints and Sets</h3>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$10.00</p>
             </div>
@@ -635,7 +669,7 @@
           <h3>Studio Oil Paints and Sets</h3>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -647,7 +681,7 @@
           <h3>Studio Oil Paints and Sets</h3>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -659,7 +693,7 @@
           <h3>Studio Oil Paints and Sets</h3>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -677,7 +711,7 @@
               <h3>Studio Oil Paints and Sets</h3>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$20.00</p>
               </div>
@@ -689,7 +723,7 @@
               <h3>Studio Oil Paints and Sets</h3>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$10.00</p>
               </div>
@@ -701,7 +735,7 @@
               <h3>Studio Oil Paints and Sets</h3>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$10.00</p>
               </div>
@@ -721,7 +755,7 @@
      </div>
   
   <!-- CANVAS :: CAROUSEL BODY CONTENT -->
-  <div class="d-flex subjext-tittle">
+  <div class="d-flex subject-tittle">
     <i class="fas fa-square"></i>
     <h2 class="row"  id="canvas-section">Canvas</h2>
     </div> 
@@ -739,7 +773,7 @@
           </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>              
               <p class="price-point">$10.00</p>
             </div>
@@ -751,7 +785,7 @@
           </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>               
               <p class="price-point">$10.00</p>
             </div>
@@ -763,7 +797,7 @@
           </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box">
+            <div class="price-box flex-section-between" >
               <i class="fas fa-plus"></i>              
               <p class="price-point">$10.00</p>
             </div>
@@ -780,7 +814,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -792,7 +826,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -804,7 +838,7 @@
           </a>
           <p class="condition">New</p>
           <p>From: New York , US</p>
-          <div class="price-box">
+          <div class="price-box flex-section-between" >
             <i class="fas fa-plus"></i>
             <p class="price-point">$20.00</p>
           </div>
@@ -821,7 +855,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$30.00</p>
               </div>
@@ -833,7 +867,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$30.00</p>
               </div>
@@ -845,7 +879,7 @@
               </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box">
+              <div class="price-box flex-section-between" >
                 <i class="fas fa-plus"></i>
                 <p class="price-point">$30.00</p>
               </div>
@@ -871,9 +905,9 @@
   <!-- FOOTER -->
   <footer class="container-fluid">
     <div class="d-flex">
-      <section class="d-flex row section-1">
-        <a class="navbar-brand d-flex"  href="index.html" >
-          <img class="footer-logo" alt="logo"
+      <section class="flex-column flex-section-center">
+        <a class=""  href="index.html">
+          <img class=" footer-logo" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
           </a>
           <p class="footer-info">Lorem Ipsum is a simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printer ever since the 1500s, when as unknown printer took a gallery of type and scrambled it to make a type specimen book. </p>
