@@ -57,6 +57,27 @@ h3 {
   color: #888;
 }
 
+.search-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.search-info h3 {
+  color: #888;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.search-info button {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
 .subject-tittle :nth-child(2) {
   margin: 10px 10px 0 -10px;
   font-size: 22px;
@@ -497,27 +518,6 @@ footer {
 
   .search-section {
     border: transparent;
-  }
-
-  .search-info {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    padding: 20px;
-  }
-
-  .search-info h3 {
-    color: #888;
-    font-weight: bold;
-    margin-top: 0;
-  }
-
-  .search-info button {
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 3px;
   }
 
   .search-image img {
