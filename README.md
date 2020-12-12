@@ -11,15 +11,15 @@
 
 > The Desktop / Tablet version :
  
-![screenshot](./assets/img/main2.png )
-![screenshot](./assets/img/main1.png)
+![screenshot](./assets/img/main-page-d.png)
+![screenshot](./assets/img/searchPage-d.png)
 
 
 
 > The Mobile version :
 
-![screenshot]( ./assets/img/mobile1.png )
-![screenshot]( ./assets/img/mobile2.png )
+![screenshot]( ./assets/img/main-page-m.png )
+![screenshot]( ./assets/img/searchPage-m.png )
 
 ## Built With
 
