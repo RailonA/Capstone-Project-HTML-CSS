@@ -16,15 +16,15 @@
 </head>
 
 <body class="container-fluid">
-  <header > 
+  <header class=""> 
     <!-- MOBILE BLACK NAV -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex d-md-none d-lg-none d-xl-none">
-      <a class="col navbar-brand d-flex" href="index.html">
-        <img class="header-logo" alt="logo"
+      <a class=" navbar-brand d-flex col-2 " href="index.html">
+        <img class=" img-fluid header-logo " alt="logo"
           src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
       </a>        
-      <div class="col-2">
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="navbar-toggler d-flex">
+        <button class="bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div> 
@@ -43,11 +43,11 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
-            <div class="dropdown-menu  bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu  bg-dark border-0" aria-labelledby="">
               <a class="dropdown-item navbar-dark bg-dark ml-10 text-light text-capitalize" href="#brush-section">brush</a>
               <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize"   href="#paint-section">paint</a>
               <a class="dropdown-item navbar-dark bg-dark text-light text-capitalize" href="#canvas-section">canvas</a>
-            </div>
+            </div> 
           </li>
         </ul>
       </div>
@@ -59,7 +59,7 @@
           <img class="header-logo" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
         </a>
-          <div class="button-container top-header d-flex col-9">
+          <div class="button-container top-header d-flex flex-section-around col-9">
             <a  href="index.html"  class="text-uppercase text-center nav-link d-flex">
               <i class="fas fa-home col"></i>
               <p class="col">HOME</p>
@@ -68,7 +68,7 @@
               <i class="fas fa-th-large col"></i>
               <p class="col">COLLECTIONS</p>
             </a>
-            <a href="#"  class="text-uppercase text-center nav-link justify-content-center d-flex">
+            <a href="#"  class="text-uppercase text-center nav-link  d-flex">
               <i class="fas fa-shopping-cart col"></i>
               <p class="">PURCHASE LIST</p>
             </a>
@@ -82,11 +82,12 @@
     <nav class="navbar navbar-expand-lg  bg-light d-none d-md-flex d-lg-flex d-xl-flex">
         <div class="bottom-header container-fluid justify-content-center flex-column">
         <!-- HEADER DESKTOP LOGO -->
-          <div class=" website-container d-flex
-          justify-content-center ">
-            <img class="header-bottom-logo mb-4 mr-3" alt="logo"
-            src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
-            <h1 class="d-flex justify-content-center"> WEB PAGE TITLE</h1>
+          <div class=" website-container d-flex justify-content-center ">
+          <a href="index.html">
+            <img class="header-bottom-logo d-flex mb-4 mr-3" alt="logo"
+           src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
+         </a>
+            <h1 class="d-flex justify-section-center "> WEB PAGE TITLE</h1>
           </div>
           <!-- HEADER DESKTOP DROP DOWN -->
           <div class="d-flex" >
@@ -130,7 +131,7 @@
               <div class=" hotadd-image hotadd-image d-flex justify-content-center">
                 <img alt="#" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg">
               </div>
-              <div class="flex-column hotadd-info justify-content-between d-flex justify-content-center">
+              <div class="flex-column hotadd-info justify-section-between d-flex justify-content-center">
                 <h3 class="text-uppercase  text-center">Add title goes hear</h3>
                 <p class="text-center">You can fill up this setion with as much information as possible</p>
                 <div class="d-flex justify-content-center" >
@@ -198,21 +199,21 @@
            <i class="fas fa-paint-brush"></i>
            <h2 class="row" >Brush</h2>
           </div> 
-          <div class="d-flex ">
-            <section class="item-container d-flex flex-column col-6">
+          <div class="d-flex flex-column flex-sm-row">
+            <section class="item-container d-flex flex-column col ">
              <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
              </a>
               <p class="condition">New</p>
               <p>From: New York , US</p>
-              <div class="price-box flex-section-between" >
+              <div class="price-box flex-section-between " >
                 <i class="fas fa-plus"></i>
 
                 <p class="price-point">$00.00</p>
               </div>
             </section>
-            <section class="item-container d-flex flex-column col-6">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
@@ -226,8 +227,8 @@
               </div>
             </section>
           </div>
-          <div class="d-flex ">
-            <section class="item-container d-flex flex-column col-6">
+         <div class="d-flex flex-column flex-sm-row">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
@@ -239,7 +240,7 @@
                 <p class="price-point">$00.00</p>
               </div>
             </section>
-            <section class="item-container d-flex flex-column col-6">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
@@ -252,8 +253,8 @@
               </div>
             </section>
           </div>
-          <div class="d-flex ">
-            <section class="item-container d-flex flex-column col-6">
+         <div class="d-flex flex-column flex-sm-row">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
@@ -265,7 +266,7 @@
                 <p class="price-point">$00.00</p>
               </div>
             </section>
-            <section class="item-container d-flex flex-column col-6">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/14hlnS5O9ikHX5KZ5rXfmH/815d285168b5f3c663d46765671c8cac/06439-brush-group-1-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Princeton Velvetouch Series 3950 Synthetic Brushes and Set</h3>
@@ -285,8 +286,8 @@
         <i class="fas fa-palette"></i>
         <h2 class="row">PAINT</h2>
         </div> 
-        <div class="d-flex ">
-            <section class="item-container d-flex flex-column col-6">
+       <div class="d-flex flex-column flex-sm-row">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Studio Oil Paints and Sets</h3>
@@ -298,7 +299,7 @@
                 <p class="price-point">$00.00</p>
               </div>
             </section>
-            <section class="item-container d-flex flex-column col-6">
+            <section class="item-container d-flex flex-column col">
               <a href="searchPage.html">
               <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
               <h3>Studio Oil Paints and Sets</h3>
@@ -311,8 +312,8 @@
               </div>
             </section>
         </div>
-        <div class="d-flex ">
-          <section class="item-container d-flex flex-column col-6">
+       <div class="d-flex flex-column flex-sm-row">
+          <section class="item-container d-flex flex-column col">
             <a href="searchPage.html">
             <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
             <h3>Studio Oil Paints and Sets</h3>
@@ -325,7 +326,7 @@
               <p class="price-point">$00.00</p>
             </div>
           </section>
-          <section class="item-container d-flex flex-column col-6">
+          <section class="item-container d-flex flex-column col">
             <a href="searchPage.html">
             <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
             <h3>Studio Oil Paints and Sets</h3>
@@ -339,8 +340,8 @@
             </div>
           </section>
         </div>
-        <div class="d-flex ">
-        <section class="item-container d-flex flex-column col-6">
+       <div class="d-flex flex-column flex-sm-row">
+        <section class="item-container d-flex flex-column col">
           <a href="searchPage.html">
           <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
           <h3>Studio Oil Paints and Sets</h3>
@@ -357,7 +358,7 @@
             <p class="price-point">$00.00</p>
           </div>
         </section>
-        <section class="item-container d-flex flex-column col-6">
+        <section class="item-container d-flex flex-column col">
           <a href="searchPage.html">
           <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/6MkdqWt5Jwuve5iniKf0Ts/d6551cbb47f9b4495ff87e36755899fc/01557-1209-2-4ww.jpg?q=80&w=500&fm=webp">
           <h3>Studio Oil Paints and Sets</h3>
@@ -382,20 +383,20 @@
       <i class="fas fa-square"></i>
       <h2 class="row">Canvas</h2>
       </div> 
-      <div class="d-flex">
-          <section class="item-container d-flex flex-column col-6">
+      <div class="d-flex flex-column flex-sm-row">
+          <section class="item-container d-flex flex-column col">
             <a href="searchPage.html">
             <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
             <h3>Blick Academic Cotton Canvas</h3>
             </a>
             <p class="condition">New</p>
             <p>From: New York , US</p>
-            <div class="price-box flex-section-between" >
+            <div class="price-box  flex-section-between" >
               <i class="fas fa-plus"></i>
               <p class="price-point">$00.00</p>
             </div>
           </section>
-          <section class="item-container d-flex flex-column col-6">
+          <section class="item-container d-flex flex-column col">
             <a href="searchPage.html">
             <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
             <h3>Blick Academic Cotton Canvas</h3>
@@ -408,8 +409,8 @@
             </div>
           </section>
       </div>
-      <div class="d-flex ">
-        <section class="item-container d-flex flex-column col-6">
+     <div class="d-flex flex-column flex-sm-row">
+        <section class="item-container d-flex flex-column col">
           <a href="searchPage.html">
           <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
           <h3>Blick Academic Cotton Canvas</h3>
@@ -421,7 +422,7 @@
             <p class="price-point">$00.00</p>
           </div>
         </section>
-        <section class="item-container d-flex flex-column col-6">
+        <section class="item-container d-flex flex-column col">
           <a href="searchPage.html">
           <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
           <h3>Blick Academic Cotton Canvas</h3>
@@ -434,8 +435,8 @@
           </div>
         </section>
     </div>
-    <div class="d-flex ">
-      <section class="item-container d-flex flex-column col-6">
+   <div class="d-flex flex-column flex-sm-row">
+      <section class="item-container d-flex flex-column col">
         <a href="searchPage.html">
         <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
         <h3>Blick Academic Cotton Canvas</h3>
@@ -447,13 +448,16 @@
           <p class="price-point">$00.00</p>
         </div>
       </section>
-      <section class="item-container d-flex flex-column col-6">
+      <section class="item-container d-flex flex-column col">
         <a href="searchPage.html">
         <img class="img-fluid" alt="#" src="https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80&w=500&fm=webp">
         <h3>Blick Academic Cotton Canvas</h3>
-        </a>                    
-        <div>
-          <a class="dropdown-item " href="#paint-section">Paint</a>
+        </a>
+        <p class="condition">New</p>
+        <p>From: New York , US</p>
+        <div class="price-box  flex-section-between" >
+          <i class="fas fa-plus"></i>
+          <p class="price-point">$00.00</p>
         </div>
       </section>
   </div>
@@ -908,7 +912,7 @@
     <div class="d-flex">
       <section class="flex-column flex-section-center">
         <a class=""  href="index.html">
-          <img class=" footer-logo" alt="logo"
+          <img class=" footer-logo d-flex" alt="logo"
             src="https://i.pinimg.com/originals/eb/bb/2c/ebbb2ca81ba06a97750639829004b0ec.png">
           </a>
           <p class="footer-info">Lorem Ipsum is a simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printer ever since the 1500s, when as unknown printer took a gallery of type and scrambled it to make a type specimen book. </p>
@@ -920,7 +924,7 @@
       <a href="#canvas-section"><p>Canvas</p></a>
     </section>
     </div>
-    <div class="d-flex row section-3 justify-content-center"> 
+    <div class="d-flex row section-3 text-center justify-section-center"> 
       <p>Copyright© 2015 Zattix.com All Rights Reserved. Designed by Mohammed Awad </p>
     </div>
   </footer>

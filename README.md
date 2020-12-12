@@ -1,13 +1,12 @@
 
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Sale Page  directory - HTML AND CSS Capstone Project
 
-> This project is the HTML and CSS capstone project, I built a art store  directory that allows users to scrole through items for sale, this project has 2 pages which are :
+> This project is the HTML and CSS capstone project, I built an art store  directory that allows users to scroll through items for sale, this project has 2 pages which are :
 
 - The main page: the main page where all the items are displayed
-- The search results page: This page displays the items in more of a narrow way regarding price point and items the customer is looking for. 
+- The search results page: This page displays the items in more of a narrow way regarding price points and items the customer is looking for. 
 
 
 > The Desktop / Tablet version :
@@ -17,7 +16,7 @@
 
 
 
-> The Mobil version :
+> The Mobile version :
 
 ![screenshot]( ./assets/img/mobile1.png )
 ![screenshot]( ./assets/img/mobile2.png )
@@ -62,7 +61,7 @@ or
  $ git clone git@github.com:RailonA/Capstone-Project-HTML-CSS.git
 ```
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+2- Open the folder on VS Code, right-click the index.html file and click on "Open With Live Server"
 
 3- Everything should be running by now. 
 
@@ -72,11 +71,11 @@ or
 
 - GitHub: [@railonA](https://github.com/RailonA)
 - Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
-- Twiter: [@railonAcosta](https://twitter.com/RailonAcosta)
+- Twitter: [@railonAcosta](https://twitter.com/RailonAcosta)
 
 
 ## ORIGINAL DESIGN INFORMATION
-You can access all the design info (layouts) in this link:
+You can access all the design info (layouts) at this link:
 
 [https://www.behance.net/gallery/24796463/ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
 
@@ -86,7 +85,7 @@ Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]( https://github.com/RailonA/Capstone-Project-HTML-CSS/issues/1 ).
+Feel free to check the [issues page](  https://github.com/RailonA/Capstone-Project-HTML-CSS/issues ).
 
 ## Show your support
 
