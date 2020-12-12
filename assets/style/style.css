@@ -109,8 +109,14 @@ h3 {
 }
 
 .price-box :nth-child(1):hover,
+.dropdown-menu a:hover,
 .search-button:hover {
   background-color: #383838;
+}
+
+.search-button:hover {
+  color: white;
+  font-weight: bold;
 }
 
 div {
@@ -262,6 +268,10 @@ footer {
   color: #888;
 }
 
+.category-container p {
+  color: #888;
+}
+
 .footer-category {
   font-weight: bold;
 }
@@ -311,8 +321,6 @@ footer {
   header {
     padding: 0;
   }
-
-
 
   .price-point {
     font-weight: bold;
