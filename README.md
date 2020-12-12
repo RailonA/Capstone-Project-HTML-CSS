@@ -1,22 +1,26 @@
 
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# WebPage-Template
+# Sale Page  directory - HTML AND CSS Capstone Project
 
-( PROJECT EXPLAINATION )
+> This project is the HTML and CSS capstone project, I built an art store  directory that allows users to scroll through items for sale, this project has 2 pages which are :
+
+- The main page: the main page where all the items are displayed
+- The search results page: This page displays the items in more of a narrow way regarding price points and items the customer is looking for. 
 
 
-> The Desktop version :
+> The Desktop / Tablet version :
  
-![screenshot]( ... )
+![screenshot](./assets/img/mainPage-D.png)
+![screenshot](./assets/img/searchPage-D.png)
 
-> The Tablet version :
 
-![screenshot]( ... )
-> The Mobil version :
 
-![screenshot]( ... )
+> The Mobile version :
+
+![screenshot]( ./assets/img/mainPage-M.png )
+![screenshot]( ./assets/img/searchPage-M.png )
+
 ## Built With
 
 - HTML5
@@ -25,7 +29,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( ... )
+[Live Demo Link]( https://railona.github.io/Capstone-Project-HTML-CSS/ )
 
 
 
@@ -54,10 +58,10 @@ or
 
 1- Clone the repository
 ```
- $ git clone ...
+ $ git clone git@github.com:RailonA/Capstone-Project-HTML-CSS.git
 ```
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+2- Open the folder on VS Code, right-click the index.html file and click on "Open With Live Server"
 
 3- Everything should be running by now. 
 
@@ -67,16 +71,21 @@ or
 
 - GitHub: [@railonA](https://github.com/RailonA)
 - Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
-- Twiter: [@railonAcosta](https://twitter.com/RailonAcosta)
+- Twitter: [@railonAcosta](https://twitter.com/RailonAcosta)
 
 
+## ORIGINAL DESIGN INFORMATION
+You can access all the design info (layouts) at this link:
 
+[https://www.behance.net/gallery/24796463/ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
+
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]( ... ).
+Feel free to check the [issues page](  https://github.com/RailonA/Capstone-Project-HTML-CSS/issues ).
 
 ## Show your support
 
